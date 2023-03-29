@@ -2,17 +2,21 @@ package homework_nr_3;
 
 public class TemperatureConverter {
     public static void main(String[]args){
-
-        float f = toFahrenheit(32);
-        float c = toCelsius(234);
-
-        System.out.println(f +" "+c);
+        TemperatureConverter c = new TemperatureConverter();
+        TemperatureConverter f = new TemperatureConverter();
+        System.out.println(f.toFahrenheit(34.56));
+        System.out.println(c.toCelsius(45.6));
     }
-    public static float toCelsius( float fahrenheit){
-        return (float)((fahrenheit-32)/1.8);
+    public double toCelsius(double fahrenheit){
+        return (fahrenheit-32)/1.8;
     }
-    public static float toFahrenheit(float celsius){
-        return (float)(celsius*1.8+32);
+    public double toFahrenheit(double celsius){
+        return celsius*1.8+32;
     }
-
 }
+
+
+
+
+
+

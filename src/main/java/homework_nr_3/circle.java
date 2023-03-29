@@ -2,14 +2,24 @@ package homework_nr_3;
 
 public class circle {
     public static void main(String[] args){
-        float radius;
-        radius = calculateArea(23);
-        System.out.println(radius);
+        Radius radius1 = new Radius(3.7);
+        radius1.calculateArea();
 
-    }
-
-    public static float calculateArea(float x){
-        return (float) (3.14*x*x);
     }
 }
+class Radius{
+    double radius;
+    void calculateArea(){
+         System.out.println(3.14*radius*radius);
+    }
+
+
+
+    public Radius(double radius) {
+        this.radius = radius;
+    }
+}
+
+
+
 
