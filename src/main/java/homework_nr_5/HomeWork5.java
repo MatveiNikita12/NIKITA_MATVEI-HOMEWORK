@@ -11,7 +11,7 @@ public class HomeWork5 {
 
         }
 
-        Weekday weekday = Weekday.Friday;
+        Weekday weekday = Weekday.FRIDAY;
         System.out.println(weekday.IsWeekday());
         System.out.println(weekday.IsHoliday());
 
