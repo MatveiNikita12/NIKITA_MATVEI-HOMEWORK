@@ -1,33 +1,33 @@
 package homework_nr_5;
 
 public enum Weekday {
-    Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday;
+    MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY;
     public boolean IsWeekday(){
         boolean a = false;
         switch (this){
-            case Monday:
-            case Tuesday:
-            case Wednesday:
-            case Thursday:
-            case Friday:
+            case MONDAY:
+            case TUESDAY:
+            case WEDNESDAY:
+            case THURSDAY:
+            case FRIDAY:
                 a = true;
                 break;
-            case Sunday:
-            case Saturday:
+            case SUNDAY:
+            case SATURDAY:
         }
     return a;
     }
     public boolean IsHoliday(){
         boolean a = false;
         switch (this){
-            case Monday:
-            case Tuesday:
-            case Wednesday:
-            case Thursday:
-            case Friday:
+            case MONDAY:
+            case TUESDAY:
+            case WEDNESDAY:
+            case THURSDAY:
+            case FRIDAY:
                 break;
-            case Saturday:
-            case Sunday:
+            case SATURDAY:
+            case SUNDAY:
                 a = true;
         }
         return a;
