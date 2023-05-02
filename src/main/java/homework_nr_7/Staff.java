@@ -30,7 +30,7 @@ public class Staff extends Person {
     public String toString() {
         return "Staff{" +
                 "school='" + school + '\'' +
-                ", pay=" + pay + ", address="+getAddress()+", name="+getName()+
+                ", pay=" + pay + ", name" + getName() + ", address" + getAddress() +
                 '}';
     }
 }
