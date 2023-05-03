@@ -1,6 +1,6 @@
 package homework_nr_2;
 
-public class HomeWork_2_ {
+public class homework_2 {
     public static void main(String[] args) {
         int month = 6;
         switch (month) {
@@ -64,7 +64,7 @@ public class HomeWork_2_ {
         for (int r = 0; r != 9; r++) {
             for (int e = 0; e != r; e++)
                 System.out.print("*");
-                System.out.println("*"); }
+            System.out.println("*"); }
 
         String A = "";
         char star = '*';
@@ -72,15 +72,8 @@ public class HomeWork_2_ {
             A += star;
             System.out.println(A);
         }
-        }
-
     }
 
-
-
-
-
-
-
+}
 
 
